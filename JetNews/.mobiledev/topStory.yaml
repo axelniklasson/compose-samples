@@ -1,0 +1,6 @@
+appId: com.example.jetnews
+name: Top Story
+---
+- launchApp
+- tapOn:
+    below: Top stories for you
