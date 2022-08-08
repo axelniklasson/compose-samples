@@ -19,5 +19,5 @@ jobs:
         with:
           api-key: ${{ secrets.MOBILE_DEV_API_KEY }}
           name: ${{ github.sha }}
-          app-file: app/build/outputs/apk/debug/app-debug.apk
+          app-file: JetNews/app/build/outputs/apk/debug/app-debug.apk
           workspace: JetNews/.mobiledev
