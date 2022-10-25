@@ -15,7 +15,7 @@ jobs:
       - name: Build
         working-directory: JetNews
         run: ./gradlew packageDebug
-      - uses: mobile-dev-inc/action-upload@v2.3.0
+      - uses: mobile-dev-inc/action-upload@v2.3.2
         with:
           api-key: ${{ secrets.MOBILE_DEV_API_KEY }}
           name: ${{ github.sha }}
