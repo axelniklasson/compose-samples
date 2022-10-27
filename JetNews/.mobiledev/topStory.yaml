@@ -4,4 +4,4 @@ name: Top Story
 - launchApp
 - tapOn: 
     below: 
-      text: Top stories for you
+      text: non existing text
