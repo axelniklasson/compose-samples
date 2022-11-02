@@ -1,7 +1,7 @@
 appId: com.example.jetnews
-name: Top Story 2
+name: Top Story 2 that should fail
 ---
 - launchApp
 - tapOn: 
     below: 
-      text: Top stories for you
+      text: This is a failing flow
