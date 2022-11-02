@@ -1,7 +1,0 @@
-appId: com.example.jetnews
-name: Failing flow
----
-- launchApp
-- tapOn: 
-    below: 
-      text: Text does not exist
