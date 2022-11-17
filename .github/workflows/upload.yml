@@ -20,5 +20,5 @@ jobs:
           api-key: ${{ secrets.MOBILE_DEV_API_KEY }}
           app-file: JetNews/app/build/outputs/apk/debug/app-debug.apk
           workspace: JetNews/.mobiledev
-          env:
-            URL: 'https://some-domain.com?query=true&param=true'
+          env: |
+            URL='https://some-domain.com'
