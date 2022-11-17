@@ -4,5 +4,5 @@ name: Top Story
 - launchApp
 - tapOn: 
     below: 
-      text: Top stories for you
+      text: ${TEXT}
 - assertVisible: ${URL}
