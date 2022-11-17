@@ -5,3 +5,4 @@ name: Top Story
 - tapOn: 
     below: 
       text: Top stories for you
+- assertVisible: ${URL}
