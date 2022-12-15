@@ -1,7 +1,8 @@
 appId: com.example.jetnews
-name: Top Story
+name: Top Story 7
 ---
 - launchApp
 - tapOn:
     below:
       text: ${TEXT}
+- tapOn: Something non-existing
