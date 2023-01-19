@@ -1,8 +1,0 @@
-appId: com.example.jetnews
-name: Top Story
----
-- launchApp
-- tapOn: 
-    below: 
-      text: ${TEXT}
-- assertVisible: ${URL}
